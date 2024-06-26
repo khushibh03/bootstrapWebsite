@@ -1,0 +1,398 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap demo</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <style>
+            .card {
+              height: 100%;
+            }
+            .card img {
+              height: 300px;
+              object-fit: cover;
+            }
+            .card-body {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            }
+            .row + .row {
+            margin-top: 20px;
+            }
+            .card-body {
+              margin-bottom: 30px; /* Adds space below each card */
+            }
+
+            </style>
+    </head>
+  <body>
+    <div class="allcontent">
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo">
+            <img src="https://th.bing.com/th/id/R.44cf9eafc7dc5ea66b11c0fd8f36cb1e?rik=Q42q2kg1RD7aQQ&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f56e70ea286db437644916f84%2ft%2f5afa443e03ce64e94551b1a0%2f1526350911732%2fRubys%2bLogo-new.jpg%3fformat%3d1000w&ehk=3qNmW3%2fPnmRS0CjEzQiO7BZWnUifWhKjnvU12csKn8c%3d&risl=&pid=ImgRaw&r=0" alt="..">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars" style="color: transparent; font-size:23px;"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home"> HOME </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"> ABOUT </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blogs">BLOGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">
+                  MENU
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+              <button class="order">Order Online</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section id="home">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.pinimg.com/originals/8c/f0/d9/8cf0d965e68a39e5fc69cbb2effb8855.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://4.bp.blogspot.com/-8cCSKIP9MEs/VOrIqa1_45I/AAAAAAAAX3g/y8y3dkHu_ig/s1600/TE_20141203-2051.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_1200,q_auto,fl_lossy,dpr_auto,c_fill,f_auto,h_800,g_auto/uo0sdsxnbqjkczctek8y" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://koala.sh/api/image/v2-17pyh-ekt1m.jpg?width=1216&height=832&dream" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://assets3.thrillist.com/v1/image/1751901/1200x600/scale;;webp=auto;jpeg_quality=85.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.whitewolfbakery.com/wp-content/uploads/2020/10/WhiteWolf-126-1100x733.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <section id="about">
+      <div class="container">
+        <div class="heading">ABOUT <span>US</span></div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="https://images.ctfassets.net/7mmwp5vb96tc/122122/44dd9b09d637fdbe3fc8becb38d08af8/kysten_restaurant_hgr_163966_agurtxane_concellon.jpg?q=75&w=1080&fm=webp" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-6 text-content">
+            <h3 style="color: rgb(199, 84, 84);"> Our Story</h3>
+            <p >Since 2002, Ruby’s has brought global cafe culture to Bangalore City, offering casual, locally sourced cuisine, specialty drinks, and a full coffee program. Open for brekkie, lunch, and dinner 7 days a week, Ruby’s iconic menu features our signature bronte burger, taste-driven pasta, bowls and salads, and brunch with cupcakes. </p>
+            <button class="cta-button">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="menu">
+        <div class="container">
+          <div class="heading3">MENU</div>
+          </div>
+
+          <div class="container" id="container2">
+
+          <div class="row">
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="https://www.livofy.com/health/wp-content/uploads/2020/08/Turnip-Fries-4-500x500-1.jpg" alt="...">
+                
+                <div class="card-body">
+                  <div class="star-text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4>French fries</h4>
+                  <p>Rs.250 <span class="fa-solid fa-cart-shopping"></span></p>
+                  </div>
+                  </div>
+                  </div> 
+            
+                  <div class="col-md-3 py-3 py-md-0">
+                    <div class="card">
+                      <img src="https://www.kitchensanctuary.com/wp-content/uploads/2021/05/Double-Cheeseburger-wide-FS-and-foodporn-55.jpg" alt="...">
+                      
+                      <div class="card-body">
+                        <div class="star-text-center">
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h4>Burger</h4>
+                        <p>Rs.250 <span class="fa-solid fa-cart-shopping"></span></p>
+                        </div>
+                        </div>
+                        </div>  
+                        <div class="col-md-3 py-3 py-md-0">
+                          <div class="card">
+                            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1000&url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F03%2Fpomegranate-spinach-salad-2000.jpg" alt="...">
+                            
+                            <div class="card-body">
+                              <div class="star-text-center">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                              </div>
+                              <h4>Leafy salad</h4>
+                              <p>Rs.350 <span class="fa-solid fa-cart-shopping"></span></p>
+                              </div>
+                              </div>
+                              </div>  
+
+                              <div class="col-md-3 py-3 py-md-0">
+                                <div class="card">
+                                  <img src="https://khinskitchen.com/wp-content/uploads/2020/06/korean-spicy-chicken.jpg" alt="...">
+                                  
+                                  <div class="card-body">
+                                    <div class="star-text-center">
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <h4>Fried chicken</h4>
+                                    <p>Rs.550 <span class="fa-solid fa-cart-shopping"></span></p>
+                                    </div>
+                                    </div>
+                                    </div>  
+
+                              
+                              </div>
+                              <div class="row">
+
+                                <div class="col-md-3 py-3 py-md-0">
+                                  <div class="card">
+                                    <img src="https://i.pinimg.com/736x/9b/c2/8f/9bc28fc0534cea5229ac02960668cc95--korean-bulgogi-korean-bbq.jpg" alt="...">
+                                    
+                                    <div class="card-body">
+                                      <div class="star-text-center">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                      </div>
+                                      <h4>Korean rice bowl</h4>
+                                      <p>Rs.450 <span class="fa-solid fa-cart-shopping"></span></p>
+                                      </div>
+                                      </div>
+                                      </div> 
+                                
+                                      <div class="col-md-3 py-3 py-md-0">
+                                        <div class="card">
+                                          <img src="https://www.bostonrockgym.com/wp-content/uploads/2022/11/Benefits-of-Oranges.jpg" alt="...">
+                                          
+                                          <div class="card-body">
+                                            <div class="star-text-center">
+                                              <i class="fa-regular fa-star"></i>
+                                              <i class="fa-regular fa-star"></i>
+                                              <i class="fa-regular fa-star"></i>
+                                              <i class="fa-regular fa-star"></i>
+                                              <i class="fa-regular fa-star"></i>
+                                            </div>
+                                            <h4>Orange drink </h4>
+                                            <p>Rs.180 <span class="fa-solid fa-cart-shopping"></span></p>
+                                            </div>
+                                            </div>
+                                            </div>  
+                                            <div class="col-md-3 py-3 py-md-0">
+                                              <div class="card">
+                                                <img src="https://dinnerthendessert.com/wp-content/uploads/2023/10/Caramel-Macchiato-7-688x688.jpg" alt="...">
+                                                
+                                                <div class="card-body">
+                                                  <div class="star-text-center">
+                                                    <i class="fa-regular fa-star"></i>
+                                                    <i class="fa-regular fa-star"></i>
+                                                    <i class="fa-regular fa-star"></i>
+                                                    <i class="fa-regular fa-star"></i>
+                                                    <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <h4>Cappucino</h4>
+                                                  <p>Rs.200 <span class="fa-solid fa-cart-shopping"></span></p>
+                                                  </div>
+                                                  </div>
+                                                  </div>  
+                    
+                                                  <div class="col-md-3 py-3 py-md-0">
+                                                    <div class="card">
+                                                      <img src="https://th.bing.com/th/id/R.bb371463364e3ab08b4cea84af195f9c?rik=zCeHzvOty4rOjQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-9hmpyxyYhLA%2fTuC-joIipbI%2fAAAAAAAAAcU%2fnRmVL8HABRk%2fs1600%2fDOuble%2bCHocolate%2bCupcakes%2bfrom%2bBaked%2bPerfection%2b2.jpg&ehk=RYMtN5E4mTk409GblLQMQAVKsEwKPqVU0ObwdeeJ6XI%3d&risl=&pid=ImgRaw&r=0" alt="...">
+                                                      
+                                                      <div class="card-body">
+                                                        <div class="star-text-center">
+                                                          <i class="fa-regular fa-star"></i>
+                                                          <i class="fa-regular fa-star"></i>
+                                                          <i class="fa-regular fa-star"></i>
+                                                          <i class="fa-regular fa-star"></i>
+                                                          <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                        <h4>Chocolate cakes</h4>
+                                                        <p>Rs.150 <span class="fa-solid fa-cart-shopping"></span></p>
+                                                        </div>
+                                                        </div>
+                                                        </div>  
+                    
+                                                  
+                                                  </div>                              
+                              </div>
+      </section>
+
+
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="heading5">
+                Contact <span>Us</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Name" aria-label="default input example"><br>
+              <input type="email" class="form-control" placeholder="Email" aria-label="default input example"><br>
+              <input type="number" class="form-control" placeholder="Phone" aria-label="default input example"><br>
+              <button id="contact-btn"> Send message</button>
+            </div>
+          
+
+              <div class="col-md-5" id="col">
+                <h1> Info </h1>
+                <p><i class="fa-regular fa-envelope"></i>example@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+9120000000000</p>
+                <p><i class="fa-solid fa-building-columns"></i> Malleshwaram, Bangalore</p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blogs">
+        <div class="heading6">BLOGS</div>
+        <div class="container">
+          <div class="row">
+            <!-- First Row -->
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://img.veenaworld.com/wp-content/uploads/2020/09/5-Coffee-Plantation-Places-in-India-Every-Coffee-Lover-Must-Visit-scaled.jpg" alt="...">
+                <div class="card-body">
+                  <h3>1. From Farm to Cup: Our Coffee Journey</h3>
+                  <h5>Emily, Cafe Manager / 10 March 2024</h5>
+                  <p>Discover the story behind our coffee, from the farms where our beans are grown to the cup in your hand. Meet our trusted suppliers, learn about the meticulous growing process, and understand our commitment to fair trade and sustainable practices.</p>
+                  <button id="blog-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://th.bing.com/th/id/R.f205694d67dcbca3622221f330dabb0b?rik=vWD98jp3EdKonw&riu=http%3a%2f%2fwww.elywinebar.ie%2fstaging%2fwp-content%2fuploads%2f2018%2f10%2fTeam.jpg&ehk=RLK7gsFB1gkPvzFHMghk%2f%2fzQc9xL34E%2bFrjHHUBjDDc%3d&risl=&pid=ImgRaw&r=0" alt="...">
+                <div class="card-body">
+                  <h3>2. Meet the Team: Spotlight on Our Barista</h3>
+                  <h5>Jake, Head Barista / 22 March 2024</h5>
+                  <p>Get to know the friendly faces behind your favorite drinks. Our baristas are the heart of our cafe, and we’re excited to share their stories, favorite creations, and special talents with you.</p>
+                  <button id="blog-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://www.peelwithzeal.com/wp-content/uploads/2023/01/cropped-house-salad-9.jpg" alt="...">
+                <div class="card-body">
+                  <h3>3. Monthly Mingle: New Flavors and Seasonal Specials</h3>
+                  <h5>Sophia, Marketing Coordinator / 2 April 2024</h5>
+                  <p>Stay updated with our latest creations! Each month, we introduce new drinks and treats inspired by the seasons. Discover the stories and inspirations behind our latest menu additions and be the first to try them.</p>
+                  <button id="blog-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Second Row -->
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://usercontent1.hubstatic.com/14608694_f1024.jpg" alt="...">
+                <div class="card-body">
+                  <h3>4. Coffee Around the World: A Global Tour</h3>
+                  <h5>Liam, Events Manager / 10 April 2024</h5>
+                  <p>Join us on a journey around the world through coffee. Explore how different cultures enjoy coffee, learn unique brewing methods, and uncover fascinating coffee traditions from various countries.</p>
+                  <button id="blog-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://the-spring.com/wp-content/uploads/2019/11/Gathering-with-Family.jpg" alt="...">
+                <div class="card-body">
+                  <h3>5. Community Corner: Events and Gatherings</h3>
+                  <h5>Olivia, Barista Trainer / 22 April 2024</h5>
+                  <p>Our cafe is more than just a place to grab a coffee—it's a community hub. Find out about our upcoming events, from live music nights and art exhibits to book clubs and coffee tastings. Recap past events and see how we’re bringing people together.</p>
+                  <button id="blog-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://images.summitmedia-digital.com/spotph/images/2017/03/01/NarrativeCoffee_2.jpg" alt="...">
+                <div class="card-body">
+                  <h3>6. Home Brew How-To: Tips and Recipes</h3>
+                  <h5>Noah, Customer Experience Specialist / 30 March 2024</h5>
+                  <p>Elevate your home brewing game with our expert tips and recipes. Learn how to make our signature drinks at home, discover new brewing techniques, and get advice on choosing and storing coffee beans for the best flavor.</p>
+                  <button id="blog-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div class="footer-logo text-center"><img src="https://th.bing.com/th/id/R.44cf9eafc7dc5ea66b11c0fd8f36cb1e?rik=Q42q2kg1RD7aQQ&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f56e70ea286db437644916f84%2ft%2f5afa443e03ce64e94551b1a0%2f1526350911732%2fRubys%2bLogo-new.jpg%3fformat%3d1000w&ehk=3qNmW3%2fPnmRS0CjEzQiO7BZWnUifWhKjnvU12csKn8c%3d&risl=&pid=ImgRaw&r=0" alt=""></div>
+        <div class="social-links text-center">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="credits text-center">Designed by <a href="#">xffdfd</a></div>
+
+        <div class="copyright text-center">
+          &copy; Copyright <strong> <span> Ruby's Cafe </span></strong>. All rights reserved.
+        </footer>
+        
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

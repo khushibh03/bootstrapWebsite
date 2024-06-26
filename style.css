@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.allcontent {
+    background: #f7f5f2;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(199, 84, 84);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+#navbar {
+    background-color: rgb(199, 84, 84);
+}
+
+#logo img {
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item .nav-link {
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: white;
+    color: #c75454;
+    border-radius: 10px;
+}
+
+.navbar form button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+.order{
+    background-color: white;
+    color: rgb(199, 84, 84);
+    border: 1px solid rgb(199, 84, 84);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.order:hover{
+    background-color: rgb(197, 106, 106);
+    color: white;
+}
+
+
+.carousel-item {
+    height: 100vh; /* Full screen height */
+    width: 100vw;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Contain the image within the container */
+}
+
+
+#about {
+    padding: 60px 0;
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #c75454;
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 75px;
+}
+
+.heading::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background: #c75454;
+    display: block;
+    margin: 20px auto;
+}
+
+.text-content {
+    padding: 20px;
+    background: rgba(199, 84, 84, 0.05);
+    border-radius: 10px;
+}
+
+.text-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #c75454;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #b24747;
+}
+
+#about img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+@media screen and(max-width: 982px) {
+   #about p{
+    font-size: 8px;
+   }
+}
+@media screen and(max-width: 766px) {
+    #about p{
+        font-size: 15px;
+    }
+}
+
+.heading3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #c75454;
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 75px;
+   
+}
+
+.heading3::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background: #c75454;
+    display: block;
+    margin: 20px auto;
+}
+
+#container2{
+    margin-top:20px;
+}
+
+#menu .card{
+    box-shadow:rgb(199, 84, 84) 0px 0px 8px;
+}
+
+#contact{
+    width: 100%;
+    height:100vh;
+    padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #c75454 20%);
+    border-radius: 10px;
+}
+.heading5{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 20px;
+    
+}
+.heading5 span{
+    color: rgb(199, 84, 84);
+}
+#contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid rgb(199, 84, 84);
+}
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background:rgb(197, 106, 106);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#col{
+    width: 40%;
+    height: 50vh;
+    background: black;
+    margin-top: 78px;
+}
+#contact h1{
+    font-size: 25px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 766px){
+    #contact .container{
+        background: white;
+    }
+    #col{
+        width: 100%;
+        background:rgb(199, 84, 84);
+    }
+    #contact{
+        height: 150vh;
+    }
+}
+@media screen and (max-width: 400px){
+    #contact input{
+        width: 250px;
+    }
+}
+
+#blogs{
+    width: 100%;
+}
+#blogs .heading6{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    color:rgb(199, 84, 84);
+    margin-bottom: 40px;
+}
+#blogs .container{
+    margin-top: 50px;
+
+}
+#blogs h5{
+    color:rgb(199, 84, 84);
+}
+.heading6{
+    font-size: 36px;
+}
+.heading6::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background: #c75454;
+    display: block;
+    margin: 20px auto;
+}
+
+#blogs .card-body h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#blogs .card-body h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+#blogs .card-body p {
+    margin-bottom: 20px;
+    color: #555;
+}
+#blogs .card {
+    transition: transform 0.3s ease;
+}
+
+#blogs .card:hover {
+    transform: translate(0, -5px);
+    color:#c75454;
+    box-shadow:rgb(199, 84, 84) 0px 0px 8px;
+
+}
+#blog-btn {
+    background-color: rgb(199, 84, 84);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#blog-btn:hover {
+    background-color: #c75454;
+}
+
+#footer{
+    width: 100%;
+    background: rgb(199, 84, 84);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    cursor: pointer;
+}
+
+#footer .social-links i{
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: black;
+}
+#credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
